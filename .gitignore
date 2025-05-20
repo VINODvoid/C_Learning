@@ -1,0 +1,24 @@
+# Ignore all binaries and executables
+*.out
+*.o
+*.exe
+*.bin
+*.elf
+*.a
+*.so
+*.class
+*.pyc
+
+# Ignore files without extensions (often binaries)
+*~
+.*.swp
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore all files
+*
+
+# But include C source files and directories
+!*/        # Allow directory traversal
+!**/*.c    # Include all .c files recursively
